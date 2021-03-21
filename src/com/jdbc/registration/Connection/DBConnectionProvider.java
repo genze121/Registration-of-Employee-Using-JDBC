@@ -40,7 +40,7 @@ public class DBConnectionProvider {
 
 				System.out.println("======================================================================");
 
-				// Validating and Username and Password of MYSQL DB
+				// Validating Username and Password of MYSQL DB
 				if (USERNAME.equals("root") && PASSWORD.equals("root")) {
 					System.out.println("Username and Password is correct for MYSQL DB!!");
 				} else {
